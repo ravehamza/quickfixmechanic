@@ -8,8 +8,9 @@
        android:name="io.flutter.app.FlutterApplication"
        android:label="QuickFix Mechanic App"
        android:icon="@mipmap/ic_launcher">
-       <meta-data android:name="com.google.android.geo.API_KEY"
-           android:value="AIzaSyCw1AjizWHOlug2gAQLYx08ci0PrUVan-8"/>
+       
+       <!--Put Google Map API key here to feature map on application screen.-->
+       
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
